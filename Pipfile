@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+spacy = "*"
+nltk = "*"
+matplotlib = "*"
+seaborn = "*"
+wordcloud = "*"
+torch = "*"
+contractions = "*"
+transformers = "*"
+scikit-learn = "*"
+emoji-extractor = "*"
+emoji = "*"
+pandarallel = "*"
+polars = "*"
+pyarrow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
